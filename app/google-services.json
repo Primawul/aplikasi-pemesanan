@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752250941664",
+    "firebase_url": "https://geekgardenapp.firebaseio.com",
+    "project_id": "geekgardenapp",
+    "storage_bucket": "geekgardenapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752250941664:android:2ae975bb84b8a09fd36085",
+        "android_client_info": {
+          "package_name": "ac.i.geekgardenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752250941664-ihnludf1n91n2k26ekdenpodg29o87sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjk1WhCoBjem6NjiCSGX0IFzeyD8kokH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752250941664-ihnludf1n91n2k26ekdenpodg29o87sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

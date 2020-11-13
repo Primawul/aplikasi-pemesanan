@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ac.i.geekgardenapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Jasa.TrainingDanWorkshop"></activity>
+        <activity android:name=".Jasa.TechnicalSupport" />
+        <activity android:name=".Jasa.SoftwareTesting" />
+        <activity android:name=".Jasa.PerancanganDanAnalisa" />
+        <activity android:name=".Jasa.ManajemenIT" />
+        <activity android:name=".Jasa.KonstruksiSourceCode" />
+        <activity android:name=".Produk.UDIO" />
+        <activity android:name=".Produk.NOMAD" />
+        <activity android:name=".Produk.MedStore" />
+        <activity android:name=".Produk.GeekPos" />
+        <activity android:name=".Produk.DOM" />
+        <activity android:name=".Produk.eGov" />
+        <activity android:name=".Produk.ALFERD" />
+        <activity android:name=".Produk.GES" />
+        <activity android:name=".Activity.EditAkun" />
+        <activity android:name=".Activity.Jasa" />
+        <activity android:name=".Activity.Produk" />
+        <activity android:name=".Activity.Beranda" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

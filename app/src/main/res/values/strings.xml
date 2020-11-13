@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GeekgardenApp</string>
+    <string name="masukan_nama">nama</string>
+    <string name="Email">email</string>
+    <string name="Nama_perusahaan">perusahaan</string>
+    <string name="Budget">budget</string>
+    <string name="Timeline">timeline</string>
+    <string name="masukan_nomor_hp">nomor</string>
+    <string name="title_buka_whatsapp">whatsapp</string>
+</resources>
