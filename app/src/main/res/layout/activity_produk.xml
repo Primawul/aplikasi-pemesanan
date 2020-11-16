@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,12 +9,18 @@
     android:background="#fcfcfc"
     android:id="@+id/ll">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
         <TextView
             android:layout_width="20dp"
@@ -27,14 +33,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PRODUK"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="25dp"
             android:textSize="18dp"
             android:textColor="#ffff" />
 
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="30dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
@@ -44,8 +50,8 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:id="@+id/DOM"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,8 +59,8 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
                     android:src="@drawable/dom"
                     android:padding="10dp"/>
                 <TextView
@@ -72,8 +78,8 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
             android:layout_margin="10dp"
             android:id="@+id/GES">
             <LinearLayout
@@ -82,9 +88,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ges"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -98,38 +104,9 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/Geekpos">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
-                    android:padding="10dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:textAlignment="center"
-                    android:textSize="12dp"
-                    android:text="GeekPoS
-                    (Poin Of Sales)" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
     </LinearLayout>
+
+
 
     <LinearLayout
         android:clipToPadding="false"
@@ -140,8 +117,37 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_margin="10dp"
+            android:id="@+id/Geekpos">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/geekpos"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:text="GeekPoS (Poin Of Sales)" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
             android:layout_margin="10dp"
             android:id="@+id/UDIO">
             <LinearLayout
@@ -150,9 +156,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/udio"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -165,71 +171,79 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/Nomand">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="vertical">
+    </LinearLayout>
 
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:padding="10dp"
-                    android:src="@drawable/dom" />
+    <LinearLayout
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:textAlignment="center"
-                    android:textSize="12dp"
-                    android:text="Nomad - Tour
-                    and travel
-                    System"
-                    android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:id="@+id/Nomand">
 
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/MedStore">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="10dp"
+                android:src="@drawable/nomad" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:text="Nomad - Tour and travel System"
+                android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:padding="10dp"
-                    android:src="@drawable/dom" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:textAlignment="center"
-                    android:textSize="12dp"
-                    android:text="MedStore - Sistem Apotek"
-                    android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:id="@+id/MedStore">
 
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="10dp"
+                android:src="@drawable/medstore" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:text="MedStore - Sistem Apotek"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
     </LinearLayout>
 
     <LinearLayout
@@ -241,8 +255,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/alferd"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground">
@@ -254,10 +268,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
                     android:padding="10dp"
-                    android:src="@drawable/dom" />
+                    android:src="@drawable/alfred" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -274,8 +288,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/eGOV"
-            android:layout_width="100dp"
-            android:layout_height="130dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground">
@@ -287,10 +301,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
                     android:padding="10dp"
-                    android:src="@drawable/dom" />
+                    android:src="@drawable/egov" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -303,5 +317,8 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </LinearLayout>
+
+</ScrollView>

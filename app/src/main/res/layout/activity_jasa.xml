@@ -46,7 +46,6 @@
             android:id="@+id/konstruksi"
             android:layout_width="150dp"
             android:layout_height="180dp"
-            android:background="@drawable/header2"
             android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -54,9 +53,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/konstruksi"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -84,9 +83,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/managemen"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -122,9 +121,9 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:src="@drawable/dom"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/software"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -154,10 +153,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    android:src="@drawable/dom" />
+                    android:src="@drawable/testing" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -195,10 +194,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    android:src="@drawable/dom" />
+                    android:src="@drawable/technical" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -228,10 +227,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    android:src="@drawable/dom" />
+                    android:src="@drawable/training" />
 
                 <TextView
                     android:layout_width="wrap_content"

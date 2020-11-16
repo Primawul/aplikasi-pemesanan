@@ -1,10 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffff"
     tools:context=".Activity.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
 
     <View
         android:id="@+id/header_view"
@@ -28,7 +33,8 @@
         <include layout="@layout/formlogin"/>
 
     </LinearLayout>
+    </RelativeLayout>
 
 
 
-</RelativeLayout>
+</ScrollView>

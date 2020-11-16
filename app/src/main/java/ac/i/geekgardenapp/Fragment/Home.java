@@ -32,6 +32,7 @@ public class Home extends Fragment {
         cvproduk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent i = new Intent(getActivity(), Produk.class);
                 startActivity(i);
             }

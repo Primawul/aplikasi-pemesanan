@@ -28,27 +28,35 @@ public class ImageSliderSatu extends SliderViewAdapter<ImageSliderSatu.SliderAda
     public void onBindViewHolder(SliderAdapterVH viewHolder, int position) {
         switch (position){
             case 0:
-                Glide.with(viewHolder.itemView)
-                        .load("https://awsimages.detik.net.id/community/media/visual/2017/10/09/c699ee52-da4d-49cb-bbd5-206c02badb64.jpg?a=1")
-                        .into(viewHolder.imageViewBackground);
+                viewHolder.imageViewBackground.setImageResource(R.drawable.dom);
                 break;
 
             case 1:
-                Glide.with(viewHolder.itemView)
-                        .load("https://majalahayah.com/wp-content/uploads/2020/01/mie-goreng-saus-tiram.jpg")
-                        .into(viewHolder.imageViewBackground);
+                viewHolder.imageViewBackground.setImageResource(R.drawable.nomad);
                 break;
 
             case 2:
-                Glide.with(viewHolder.itemView)
-                        .load("https://i2.wp.com/resepkoki.id/wp-content/uploads/2020/03/Resep-Mie-Setan.jpg?fit=1079%2C1214&ssl=1")
-                        .into(viewHolder.imageViewBackground);
+                viewHolder.imageViewBackground.setImageResource(R.drawable.testing);
                 break;
 
             case 3:
-                Glide.with(viewHolder.itemView)
-                        .load("https://gudeg.net/cni-content/uploads/modules/posts/20180503042939.jpg")
-                        .into(viewHolder.imageViewBackground);
+                viewHolder.imageViewBackground.setImageResource(R.drawable.medstore);
+                break;
+
+            case 4:
+                viewHolder.imageViewBackground.setImageResource(R.drawable.geekpos);
+                break;
+
+            case 5:
+                viewHolder.imageViewBackground.setImageResource(R.drawable.egov);
+                break;
+
+            case 6:
+                viewHolder.imageViewBackground.setImageResource(R.drawable.training);
+                break;
+
+            case 7:
+                viewHolder.imageViewBackground.setImageResource(R.drawable.managemen);
                 break;
 
             default:
